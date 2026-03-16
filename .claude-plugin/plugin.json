@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": "https://github.com/OpenParadigmStudios/ops-claude-personas",
   "keywords": ["gamedev", "ops", "game-design", "orchestration"],
-  "agents": "./agents/",
-  "skills": "./skills/",
-  "commands": "./commands/"
+  "agents": "./agents",
+  "skills": "./skills",
+  "commands": "./commands"
 }
