@@ -13,7 +13,7 @@ cd /path/to/your-game-project
 git clone https://github.com/OpenParadigmStudios/ops-claude-personas.git
 ```
 
-Claude Code automatically detects plugins via the `.claude-plugin/plugin.json` manifest — no additional configuration needed. The next time you start Claude Code in your project directory, the agents, `/slash-command` skills, and `/ops-*` commands from this plugin will be available.
+Claude Code automatically detects plugins via the `.claude-plugin/plugin.json` manifest — no additional configuration needed. The next time you start Claude Code in your project directory, the agents, `/slash-command` skills, and commands from this plugin will be available.
 
 To update:
 
@@ -97,24 +97,24 @@ Commands are user-only entry points — not bindable to agents. They handle inte
 
 | Command | Invocation | Purpose |
 |---------|-----------|---------|
-| **ops-question** | `/ops-question <spec-path>` | Deepen specs via structured Q&A rounds |
-| **ops-start** | `/ops-start <type> <name>` | Generate scaffolding — new domain specs, Epics, or Story stubs |
-| **ops-sync-spec** | `/ops-sync-spec [spec-path\|domain]` | Full spec reconciliation — update specs to match code reality |
-| **ops-orchestrate** | `/ops-orchestrate <epic-file>` | Orchestrate full Epic implementation — plan, delegate, test, review |
-| **ops-help** | `/ops-help [agents\|skills\|commands]` | List available OPS agents, skills, and commands with usage guidance |
-| **ops-status** | `/ops-status [domain]` | Quick project health check — specs, implementation progress, next steps |
+| **question** | `/question <spec-path>` | Deepen specs via structured Q&A rounds |
+| **start** | `/start <type> <name>` | Generate scaffolding — new domain specs, Epics, or Story stubs |
+| **sync-spec** | `/sync-spec [spec-path\|domain]` | Full spec reconciliation — update specs to match code reality |
+| **orchestrate** | `/orchestrate <epic-file>` | Orchestrate full Epic implementation — plan, delegate, test, review |
+| **help** | `/help [agents\|skills\|commands]` | List available OPS agents, skills, and commands with usage guidance |
+| **status** | `/status [domain]` | Quick project health check — specs, implementation progress, next steps |
 
 ## Getting Started
 
 1. **Ground yourself in OPS design** — Read `ops/ops-principles.md` to understand the design philosophy. This is the foundation everything else builds on.
 
-2. **Deepen your specs** — Use `/ops-question <spec-path>` to refine game design documents through structured Q&A. The interrogation process surfaces ambiguities and missing decisions before implementation begins.
+2. **Deepen your specs** — Use `/question <spec-path>` to refine game design documents through structured Q&A. The interrogation process surfaces ambiguities and missing decisions before implementation begins.
 
 3. **Audit your design** — Use `/game-audit <domain>` to have the game-designer agent evaluate mechanics against OPS principles and player experience for your specific medium.
 
 4. **Build features** — Use `/implement-story <epic-file> <story-number>` to implement individual Stories from your Epic specs. The skill coordinates the right implementation agents and runs tests.
 
-5. **Full orchestration** — Use `/ops-orchestrate <epic-file>` to run an entire Epic end-to-end. It plans the execution order, delegates Stories to specialist agents, runs QA after each, and finishes with a code review gate.
+5. **Full orchestration** — Use `/orchestrate <epic-file>` to run an entire Epic end-to-end. It plans the execution order, delegates Stories to specialist agents, runs QA after each, and finishes with a code review gate.
 
 ## Expected Project Files
 

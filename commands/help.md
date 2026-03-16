@@ -64,16 +64,16 @@ Based on the README and the optional filter, present:
 ### Commands (user-only entry points)
 | Command | Usage |
 |---------|-------|
-| /ops-question | `/ops-question <spec-path>` — Deepen specs via structured Q&A |
-| /ops-start | `/ops-start <type> <name>` — Generate scaffolding |
-| /ops-sync-spec | `/ops-sync-spec [spec-path\|domain]` — Full spec reconciliation |
-| /ops-orchestrate | `/ops-orchestrate <epic-file>` — Full Epic orchestration |
-| /ops-help | `/ops-help [agents\|skills\|commands]` — This help |
-| /ops-status | `/ops-status [domain]` — Quick project health check |
+| /question | `/question <spec-path>` — Deepen specs via structured Q&A |
+| /start | `/start <type> <name>` — Generate scaffolding |
+| /sync-spec | `/sync-spec [spec-path\|domain]` — Full spec reconciliation |
+| /orchestrate | `/orchestrate <epic-file>` — Full Epic orchestration |
+| /help | `/help [agents\|skills\|commands]` — This help |
+| /status | `/status [domain]` — Quick project health check |
 
 ### Recommended Workflow
-1. `/ops-start domain <name>` — scaffold a new domain spec
-2. `/ops-question <spec-path>` — deepen the spec through Q&A
+1. `/start domain <name>` — scaffold a new domain spec
+2. `/question <spec-path>` — deepen the spec through Q&A
 3. `/game-audit <domain>` — validate design against OPS principles
 4. `/implement-story <epic> <story>` — build features
 5. Orchestrator agent for full Epic execution

@@ -97,7 +97,7 @@ The canonical docs (`ops.md` and `ops-principles.md`) are universal. The pattern
 
 When editing agents or skills:
 
-- **Spec-first workflow**: Agents always read specs before writing code. The `/ops-question` command deepens specs before implementation begins.
+- **Spec-first workflow**: Agents always read specs before writing code. The `/question` command deepens specs before implementation begins.
 - **Story-driven implementation**: Work is organized as Epics containing Stories. The `/implement-story` skill is the primary entry point for building features.
 - **Quality gates are mandatory**: Every Story gets qa-engineer validation. Every Epic gets code-reviewer sign-off. The orchestrator enforces this sequence.
 - **Read-only strategic agents**: The architect, code-reviewer, and game-designer agents must never be given write tools. They analyze and report — they don't modify.

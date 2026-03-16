@@ -101,4 +101,4 @@ For each major spec claim, check:
 
 ## Lightweight by Design
 
-This is a quick check, not a deep audit. For comprehensive reconciliation, use `/ops-sync-spec` instead. The goal here is to confirm alignment and stamp the date, or flag divergences for deeper investigation.
+This is a quick check, not a deep audit. For comprehensive reconciliation, use `/sync-spec` instead. The goal here is to confirm alignment and stamp the date, or flag divergences for deeper investigation.

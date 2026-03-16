@@ -134,6 +134,6 @@ Add a new Story stub to an existing Epic file.
 After creating any scaffold:
 1. Report what was created/modified.
 2. Suggest the logical next step:
-   - Domain: `/ops-question spec/domains/<slug>`
+   - Domain: `/question spec/domains/<slug>`
    - Epic: Fill in Story details from spec documents
    - Story: Assign spec refs and acceptance criteria
