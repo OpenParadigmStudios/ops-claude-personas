@@ -67,6 +67,7 @@ Based on the README and the optional filter, present:
 | /ops-question | `/ops-question <spec-path>` — Deepen specs via structured Q&A |
 | /ops-start | `/ops-start <type> <name>` — Generate scaffolding |
 | /ops-sync-spec | `/ops-sync-spec [spec-path\|domain]` — Full spec reconciliation |
+| /ops-orchestrate | `/ops-orchestrate <epic-file>` — Full Epic orchestration |
 | /ops-help | `/ops-help [agents\|skills\|commands]` — This help |
 | /ops-status | `/ops-status [domain]` — Quick project health check |
 

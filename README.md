@@ -100,6 +100,7 @@ Commands are user-only entry points — not bindable to agents. They handle inte
 | **ops-question** | `/ops-question <spec-path>` | Deepen specs via structured Q&A rounds |
 | **ops-start** | `/ops-start <type> <name>` | Generate scaffolding — new domain specs, Epics, or Story stubs |
 | **ops-sync-spec** | `/ops-sync-spec [spec-path\|domain]` | Full spec reconciliation — update specs to match code reality |
+| **ops-orchestrate** | `/ops-orchestrate <epic-file>` | Orchestrate full Epic implementation — plan, delegate, test, review |
 | **ops-help** | `/ops-help [agents\|skills\|commands]` | List available OPS agents, skills, and commands with usage guidance |
 | **ops-status** | `/ops-status [domain]` | Quick project health check — specs, implementation progress, next steps |
 
@@ -113,7 +114,7 @@ Commands are user-only entry points — not bindable to agents. They handle inte
 
 4. **Build features** — Use `/implement-story <epic-file> <story-number>` to implement individual Stories from your Epic specs. The skill coordinates the right implementation agents and runs tests.
 
-5. **Full orchestration** — Spawn the orchestrator agent and give it an Epic. It will read the spec, delegate Stories to the appropriate specialists, run QA after each, and report completion.
+5. **Full orchestration** — Use `/ops-orchestrate <epic-file>` to run an entire Epic end-to-end. It plans the execution order, delegates Stories to specialist agents, runs QA after each, and finishes with a code review gate.
 
 ## Expected Project Files
 
