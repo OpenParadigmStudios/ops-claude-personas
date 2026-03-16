@@ -1,0 +1,13 @@
+{
+  "name": "ops-personas",
+  "owner": {
+    "name": "Open Paradigm Studios"
+  },
+  "plugins": [
+    {
+      "name": "ops-claude-personas",
+      "source": "./",
+      "description": "Agent personas and skills for orchestrating Open Paradigm System game builds"
+    }
+  ]
+}
